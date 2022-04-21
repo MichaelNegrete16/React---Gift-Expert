@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  padding: 60px;
+}
+
+input{
+  width: 100%;
+  font-size: 1.2rem;
+  color: grey
+}
+
+.card {
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  box-shadow: 17px 20px 15px 1px rgba(0,0,0,0.1);
+}
+
+.giftExpert{
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  width: 210px;
+
+}
+
+.card p{
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.card img{
+  max-height: 200px;
+  max-width: 100rem;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title{
+  
+  text-transform: uppercase;
+  text-align: center;
+  
 }
